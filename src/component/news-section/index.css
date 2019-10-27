@@ -1,0 +1,35 @@
+.one-news__container {
+  width: 30%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.one-news__container-title {
+  width: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 22px;
+}
+
+.one-news__container-description {
+  text-indent: 1.5em;
+  text-align: center;
+  font-size: 18px;
+}
+
+.one-news__container-author {
+  width: 100%;
+  padding-right: 50px;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-style: italic;
+}

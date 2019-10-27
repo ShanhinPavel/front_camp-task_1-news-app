@@ -1,0 +1,13 @@
+.header__container {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: cornflowerblue;
+}
+
+.header__container-title {
+  font-family: serif;
+  margin-left: 20px;
+}

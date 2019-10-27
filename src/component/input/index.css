@@ -1,0 +1,19 @@
+.searh-input__container-form {
+  margin: 30px 0;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 230px;
+}
+
+.search-input__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.search-input__container-button {
+  width: 100px;
+
+  font-size: 1em;
+}

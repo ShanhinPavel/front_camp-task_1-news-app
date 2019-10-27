@@ -1,0 +1,18 @@
+.footer__container {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: dimgrey;
+}
+
+.footer__container-sourse-text {
+  font-family: serif;
+  margin-right: 10px;
+}
+
+.footer__container-news-api-link {
+  margin-right: 10px;
+  font-family: serif;
+}
