@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://shanhinpavel.github.io/front_camp_task_1_news_app",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
     "build": "webpack",
     "start:dev": "webpack-dev-server"
   },
@@ -25,5 +28,8 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
