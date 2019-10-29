@@ -1,1 +1,1 @@
-# front_camp-task_1-news_app
+# Front camp 2019 Task1 - News application
