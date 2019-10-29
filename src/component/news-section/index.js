@@ -1,7 +1,13 @@
 import { createElement } from '../../helpers/create-element';
 import './index.css';
 
-export const createNewsSection = ({ title, url, description, author }) => {
+export const createNewsSection = ({
+  title,
+  url,
+  description,
+  author,
+  urlToImage
+}) => {
   const article = createElement('div', { class: 'one-news__container' });
   const articleTitle = createElement(
     'a',
@@ -12,6 +18,13 @@ export const createNewsSection = ({ title, url, description, author }) => {
     },
     title
   );
+
+  const imageContainer = createElement('img', {
+    class: 'one-news__container-img-container',
+    src: urlToImage,
+    width: '150',
+    height: '150'
+  });
   const articleDescription = createElement(
     'p',
     {
@@ -19,6 +32,10 @@ export const createNewsSection = ({ title, url, description, author }) => {
     },
     description
   );
+
+  const contentContainer = createElement('div', {
+    class: 'one-news__container-content-container'
+  });
   const authorNameContainer = createElement(
     'p',
     {
@@ -27,7 +44,9 @@ export const createNewsSection = ({ title, url, description, author }) => {
     author
   );
 
-  article.append(articleTitle, articleDescription, authorNameContainer);
+  contentContainer.append(imageContainer, articleDescription);
+
+  article.append(articleTitle, contentContainer, authorNameContainer);
 
   return article;
 };

@@ -9,7 +9,7 @@ export const getShowMoreButton = () => {
   const button = createElement(
     'button',
     { class: 'button__container-button' },
-    'show more'
+    'Show more'
   );
   buttonContainer.append(button);
   return buttonContainer;

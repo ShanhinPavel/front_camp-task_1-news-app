@@ -5,9 +5,12 @@ import { hideOrShowMoreButton } from '../helpers/hide-show-more-button';
 
 export const handleSelectChange = async event => {
   const newsContainer = document.getElementById('news');
+  const moreButton = document.getElementById('more');
+
   if (newsContainer.children.length) {
     newsContainer.innerHTML = '';
     newsContainer.setAttribute('category', '');
+    moreButton.style.display = 'none';
   }
   newsContainer.setAttribute('category', `${event.target.value}-${1}`);
   try {

@@ -1,5 +1,4 @@
 .news__container {
-  min-height: 525px;
   width: 80%;
   display: flex;
   flex-flow: row wrap;

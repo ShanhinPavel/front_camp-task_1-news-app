@@ -5,6 +5,7 @@
   justify-content: flex-end;
   align-items: center;
   background-color: dimgrey;
+  flex: 0 0 auto;
 }
 
 .footer__container-sourse-text {
