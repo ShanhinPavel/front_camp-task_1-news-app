@@ -1,6 +1,6 @@
 const API_KEY = 'f3931451dc1247fdb198996ccfe8be09';
-const PAGE_NUMBER = 1;
-const PAGE_SIZE = 5;
+export const PAGE_NUMBER = 1;
+export const PAGE_SIZE = 5;
 const URL = 'https://newsapi.org/v2/top-headlines';
 
 export const getNewsArticles = async (
