@@ -1,6 +1,6 @@
 import { getNewsArticles, PAGE_SIZE, PAGE_NUMBER } from '../api/article';
 import { getNodesCollection } from '../helpers/get-nodes-collection';
-import { createNewsSection } from '../component/news-section';
+import { createNewsSection } from '../component/news/news-section/news-section';
 import { hideOrShowMoreButton } from './hide-show-more-button';
 
 export const getCategoryPageNumber = attributeValue =>

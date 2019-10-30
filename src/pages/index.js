@@ -1,3 +1,3 @@
-import { getMainPage } from './main';
+import { getMainPage } from './main/main';
 
 export const MainPage = getMainPage();

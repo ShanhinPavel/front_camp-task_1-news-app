@@ -1,5 +1,5 @@
-import { createElement } from '../../helpers/create-element';
-import './index.css';
+import { createElement } from '../../../helpers/create-element';
+import './show-more-button.css';
 
 export const getShowMoreButton = () => {
   const buttonContainer = createElement('div', {

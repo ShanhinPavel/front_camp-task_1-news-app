@@ -1,9 +1,7 @@
-import { getNews } from './news';
 import { getFooter } from './footer';
-import { getHeader } from './header';
-import { getMain } from './main';
+import { getHeader } from './header/header';
+import { getMain } from './main/main';
 
-export const News = getNews();
 export const Footer = getFooter();
 export const Header = getHeader();
 export const Main = getMain();

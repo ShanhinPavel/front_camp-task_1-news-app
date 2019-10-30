@@ -1,5 +1,5 @@
-import { createElement } from '../../helpers/create-element';
-import './index.css';
+import { createElement } from '../../../helpers/create-element';
+import './news-section.css';
 
 export const createNewsSection = ({
   title,

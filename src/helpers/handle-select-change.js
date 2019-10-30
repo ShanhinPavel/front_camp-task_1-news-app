@@ -1,5 +1,5 @@
 import { getNewsArticles, PAGE_NUMBER, PAGE_SIZE } from '../api/article';
-import { createNewsSection } from '../component/news-section';
+import { createNewsSection } from '../component/news/news-section/news-section';
 import { getNodesCollection } from './get-nodes-collection';
 import { hideOrShowMoreButton } from '../helpers/hide-show-more-button';
 
